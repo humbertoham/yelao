@@ -13,7 +13,7 @@ export const Container = styled.div`
 
   position: relative;
   z-index: 0;
-
+  overflow: hidden;
   &:before {
     background: rgba(0, 0, 0, 0.6);
     content: "";
