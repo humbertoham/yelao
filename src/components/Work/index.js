@@ -567,7 +567,7 @@ Fraccionamiento El Tecnológico</p> <p>
         </CardWrapper>
         <CardWrapper data-aos="fade-up">
           <CardHeader>
-            <CardHeading>Fraccionamiento El Tecnológico</CardHeading>
+            <CardHeading>Fraccionamiento Linda Vista</CardHeading>
             <Swiper
               slidesPerView={1}
               spaceBetween={30}
@@ -578,14 +578,14 @@ Fraccionamiento El Tecnológico</p> <p>
             >
               {" "}
               <SwiperSlide>
-                <Page src={tec} />
+                <Page src={linda1} />
               </SwiperSlide>
             
               <SwiperSlide>
-                <Page src={tec2} />
+                <Page src={linda2} />
               </SwiperSlide>
               <SwiperSlide>
-                <Page src={tec3} />
+                <Page src={linda3} />
               </SwiperSlide>
             </Swiper>
           </CardHeader>
