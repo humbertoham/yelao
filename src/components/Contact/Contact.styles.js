@@ -23,7 +23,9 @@ export const Text = styled.div`
 export const Con = styled.div`
   margin: auto;
   padding: 10px;
-
+  a{
+    color: #000;
+  }
   h1 {
     font-family: "Poppins", sans-serif;
     font-size: var(--fontBig);

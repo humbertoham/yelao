@@ -14,10 +14,10 @@ import {
   Page,
   Message,
 } from "./Examples.styles";
-
-import image2 from "../../images/work2.jpeg";
-import image3 from "../../images/work3.jpeg";
-import image4 from "../../images/work4.jpeg";
+import image from "../../images/exa1.jpeg";
+import image2 from "../../images/exa2.jpeg";
+import image3 from "../../images/exa3.jpeg";
+import image4 from "../../images/exa4.jpeg";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -42,8 +42,16 @@ const Examples = () => {
           }}
           navigation={true}
           className="mySwiper"
-        >
+        > <SwiperSlide>
+          
+        <CardWrapper>
+          <CardHeader>
+            <Page src={image} />
+          </CardHeader>
+        </CardWrapper>
+      </SwiperSlide>
           <SwiperSlide>
+          
             <CardWrapper>
               <CardHeader>
                 <Page src={image2} />

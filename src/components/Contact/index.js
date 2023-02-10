@@ -19,7 +19,7 @@ const Contact = () => {
         <Con>
           <h1>
             <FontAwesomeIcon className="whats" size="2x" icon={faWhatsapp} />{" "}
-            +52 958 100 3052
+           <a href="https://wa.link/ltmjtj"> +52 958 137 7359</a>
           </h1>
         </Con>
 

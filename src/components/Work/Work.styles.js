@@ -31,6 +31,31 @@ export const Content = styled.div`
     }
   }
 `;
+export const Message = styled.a`
+  display: block;
+  margin: 80px auto;
+  width: 250px;
+  padding: 12px 0;
+  font-size: var(--fontMed);
+  font-weight: 100;
+  color: var(--orange);
+  border: 2px solid var(--orange);
+  border-radius: 35px;
+  margin-top: 40px;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
+  text-decoration: none;
+  text-align: center;
+  font-family: "Poppins", serif;
+  &:hover {
+    background-color: var(--orange);
+    color: #fff;
+  }
+  @media (max-width: 768px) {
+    font-size: var(--fontSmall);
+    width: 200px;
+  }
+`;
 export const CardWrapper = styled.div`
   overflow: hidden;
   padding: 0 0 32px;

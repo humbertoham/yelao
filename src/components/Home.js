@@ -7,6 +7,7 @@ import Map from "./Map";
 import Contact from "./Contact";
 import Section from "./Section";
 import MenuSec from "./Work";
+import Examples from "./Examples";
 const Home = () => {
   return (
     <>
@@ -15,6 +16,7 @@ const Home = () => {
       <Exa />
       <Section />
       <MenuSec />
+      <Examples/>
       <Contact />
       <Map />
       <Foot />
