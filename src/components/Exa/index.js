@@ -14,7 +14,7 @@ import {
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-import work1 from "../../images/work.png";
+import work1 from "../../images/work.jpeg";
 
 const Exa = () => {
   useEffect(() => {

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Container, Wrapper, Text, Message, LogoN } from "./Section.styles";
-import image from "../../images/banner.jpg";
+import image from "../../images/banner.jpeg";
 
 import Aos from "aos";
 import "aos/dist/aos.css";

@@ -13,20 +13,20 @@ const Contact = () => {
         <Con className="ptp">
           <h1>
             <FontAwesomeIcon className="email" size="2x" icon={faEnvelope} />
-            Email: rogelioramirezmatias@gmail.com
+            Email: yelaobienesraices@gmail.com
           </h1>
         </Con>
         <Con>
           <h1>
             <FontAwesomeIcon className="whats" size="2x" icon={faWhatsapp} />{" "}
-           <a href="https://wa.link/ltmjtj"> +52 958 137 7359</a>
+           <a href="https://wa.link/ltmjtj"> +52 958 100 30 52</a>
           </h1>
         </Con>
 
         <Con className="pt">
           <h1>
             <FontAwesomeIcon className="pin" size="2x" icon={faMapMarkerAlt} />{" "}
-            Ubicación: San Pedro Pochutla, Oaxaca, Mexico.
+            Ubicación: Calles Las Palmas Sección Primera, Col. Centro, San Pedro Pochutla, Oaxaca.
           </h1>
         </Con>
       </Container>

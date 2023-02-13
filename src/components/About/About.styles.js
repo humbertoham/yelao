@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
   padding: 75px;
   box-sizing: border-box;
 
-  background: var(--brown);
+  background: #000;
 `;
 
 export const Content = styled.div`
