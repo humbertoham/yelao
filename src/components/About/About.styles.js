@@ -53,7 +53,7 @@ export const Text = styled.div`
   h1 {
     font-family: "Poppins", sans-serif;
     font-size: var(--fontSuperBig);
-    color: var(--yellow);
+    color: var(--orange);
     @media screen and (max-width: 720px) {
       font-size: var(--fontBig);
     }
